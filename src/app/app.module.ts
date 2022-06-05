@@ -8,7 +8,7 @@ import { MenuComponent } from './components/navigation/menu/menu.component';
 import { FooterComponent } from './components/navigation/footer/footer.component';
 import { ContactComponent } from './components/institutional/contact/contact.component';
 import { AboutComponent } from './components/institutional/about/about.component';
-
+import { ProductsService } from './services/products.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +22,9 @@ import { AboutComponent } from './components/institutional/about/about.component
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    ProductsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
