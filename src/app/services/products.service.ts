@@ -17,7 +17,7 @@ export class ProductsService {
    * Método responsavel por chamar o serviço dos produtos
    * @returns Lista de Produtos
    */
-  getProducts(): Observable<Product[]> {
-    return this.http.get<Product[]>(this.UrlServiceV1 + "produtos");
+  public getProducts(): Observable<Product[]> {
+    return this.http.get<Product[]>(this.UrlServiceV1 + "products");
   }
 }
