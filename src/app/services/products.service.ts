@@ -1,3 +1,4 @@
+import { Employee } from './../interfaces/employee.interface';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -24,7 +25,7 @@ export class ProductsService {
    * Método responsavel por chamar o serviço que lista a equipe de trabalho
    * @returns Lista de Trabalhadores
    */
-  public getEmployes(): Observable<Product[]> {
-    return this.http.get<Product[]>(this.UrlServiceV1 + 'employes');
+  public getEmployes(): Observable<Employee[]> {
+    return this.http.get<Employee[]>(this.UrlServiceV1 + 'employes');
   }
 }
