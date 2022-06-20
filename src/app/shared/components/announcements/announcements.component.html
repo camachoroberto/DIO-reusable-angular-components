@@ -1,0 +1,10 @@
+<div [ngClass]="'alert ' +infoContext.typeAlert" role="alert">
+    <h4 class="alert-heading">{{infoContext.titleText}}</h4>
+    <p>{{infoContext.bodyText}}</p>
+    <div *ngIf="infoContext?.infoText">
+        <hr>
+        <p class="mb-0">
+            <strong>{{infoContext.infoText}}</strong>
+        </p>
+    </div>
+</div>

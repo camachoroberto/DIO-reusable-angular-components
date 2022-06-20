@@ -72,5 +72,68 @@
       "valorPromo": 0,
       "imagem": "gopro.jpg"
     }
+  ],
+  "employes": [
+    {
+      "picture": "https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png",
+      "name": "Mara Tristão Abasto",
+      "position": "Diretor"
+    },
+    {
+      "picture": "https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png",
+      "name": "Raphaël Malheiro Morgado",
+      "position": "Diretor"
+    },
+    {
+      "picture": "https://res.cloudinary.com/mhmd/image/upload/v1556834130/avatar-3_hzlize.png",
+      "name": "Ayumi Gravato Pegado",
+      "position": "Analista de Mídia"
+    },
+    {
+      "picture": "https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-2_f8dowd.png",
+      "name": "Éric Cortês Faustino",
+      "position": "Analista de logística"
+    },
+    {
+      "picture": "https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-1_s02nlg.png",
+      "name": "Fausto Ornelas Setúbal",
+      "position": "Analista de logística"
+    },
+    {
+      "picture": "https://freeiconshop.com/wp-content/uploads/edd/person-girl-flat.png",
+      "name": "Riana Paulos Faleiro",
+      "position": "Customer Service"
+    },
+    {
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfZDabpYnE3St-xoZZgVSGgRMIn3km-RjzE4YooiGV5R4kklAzNzb8GVZwLGCHzPW4puQ&usqp=CAU",
+      "name": "Mellyssa Granja Patrício",
+      "position": "Customer Service"
+    },
+    {
+      "picture": "https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375_640.png",
+      "name": "Bruna Canhão Gabeira",
+      "position": "Promotor de vendas"
+    },
+    {
+      "picture": "https://cdn.iconscout.com/icon/free/png-256/avatar-1659503-1410025.png",
+      "name": "Lyah Doutel Varanda",
+      "position": "Promotor de vendas"
+    },
+    {
+      "picture": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/21760012/original/d4c0c142f91f012c9a8a9c9aeef3bac28036f15b/create-your-cartoon-style-flat-avatar-or-icon.jpg",
+      "name": "Rossana Boto Franca      ",
+      "position": "Promotor de vendas"
+    },
+    {
+      "picture": "https://library.kissclipart.com/20180919/xae/kissclipart-male-avatar-icon-clipart-computer-icons-avatar-104635e37f6b2f94.png",
+      "name": "Silvestre Frois Ribeiro",
+      "position": "Promotor de vendas"
+    },
+
+    {
+      "picture": "https://user-images.githubusercontent.com/5709133/50445980-88299a80-0912-11e9-962a-6fd92fd18027.png",
+      "name": "Mateo Lemes Ximenes",
+      "position": "Promotor de vendas"
+    }
   ]
 }

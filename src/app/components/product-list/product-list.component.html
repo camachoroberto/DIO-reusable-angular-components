@@ -1,7 +1,7 @@
-<div class="container main-container">
+<app-announcements class="announcements" [infoContext]='announcementInfos'></app-announcements>
 
+<div class="container main-container">
     <div class="row text-center">
-        
         <div *ngFor="let product of products" class="col-md-4" style="padding-bottom: 30px;">
             <div class="card h-100">
                 <a class="text-decoration-none" [routerLink]="['/product-detalhe', product.id]">
@@ -9,22 +9,31 @@
                         <img src="/assets/{{ product.imagem }}" height="164px" width="253px" alt="">
                     </div>
                 </a>
-                <h4 class="card-title">{{ product.nome | titlecase }}</h4>
 
+                <h4 class="card-title">{{ product.nome | titlecase }}</h4>
                 <div [ngSwitch]="product.promocao">
                     <p *ngSwitchCase="true">Promoção!</p>
                     <p *ngSwitchCase="false">Por apenas:</p>
                 </div>
 
                 <div *ngIf="product.promocao" class="card-body">
-                    <div><h4 class="card-text">De:
-                        <small><del>{{ product.valor | currency:'BRL':true:'1.2-2':'pt' }}</del></small>
-                        Por: {{ product.valorPromo | currency:'BRL':true:'1.2-2':'pt' }}
-                    </h4></div>
+                    <div>
+                        <h4 class="card-text">De:
+                            <small>
+                                <del>{{ product.valor | currency:'BRL':'symbol':'1.2-2':'pt' }}
+
+                                </del>
+                            </small>
+                            <br>
+                            Por: {{ product.valorPromo | currency:'BRL':'symbol':'1.2-2':'pt' }}
+                        </h4>
+                    </div>
                 </div>
 
                 <div *ngIf="!product.promocao" class="card-body">
-                    <div><h4>{{ product.valor | currency:'BRL':true:'1.2-2':'pt' }}</h4></div>
+                    <div>
+                        <h4>{{ product.valor | currency:'BRL':'symbol':'1.2-2':'pt' }}</h4>
+                    </div>
                 </div>
 
                 <div class="card-footer">
