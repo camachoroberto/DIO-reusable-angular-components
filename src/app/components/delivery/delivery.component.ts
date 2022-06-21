@@ -20,7 +20,7 @@ export class DeliveryComponent implements OnInit {
       typeAlert: 'alert-success',
       titleText: 'E tem mais...',
       bodyText: 'O frete fica por nossa conta na sua primeira compra!',
-      // infoText: 'Aproveite os nossos descontos especiais!',
+      infoText: 'Aproveite os nossos descontos especiais!',
     };
   }
 }
